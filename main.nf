@@ -923,6 +923,14 @@ process PICARD_METRICS {
         REFERENCE_SEQUENCE=$fasta \\
         VALIDATION_STRINGENCY=LENIENT \\
         TMP_DIR=tmp
+
+     picard -Xmx${avail_mem}g CollectWgsMetrics \\
+             COVERAGE_CAP=1000000 \\
+             INPUT=${bam[0]} \\
+             OUTPUT=${prefix}.CollectWgsMetrics.coverage_metrics \\
+             REFERENCE_SEQUENCE=$fasta \\
+             VALIDATION_STRINGENCY=LENIENT \\
+             TMP_DIR=tmp
     """
 }
 
