@@ -1,5 +1,9 @@
 group,replicate,fastq_1,fastq_2,antibody,control
 FOXA1_IP_VEH,1,s3://nf-core-awsmegatests/chipseq/input_data/SRX747791_T1.fastq.gz,,FOXA1,INPUT_VEH
 FOXA1_IP_VEH,2,s3://nf-core-awsmegatests/chipseq/input_data/SRX747792_T1.fastq.gz,,FOXA1,INPUT_VEH
+FOXA1_IP_E2,1,s3://nf-core-awsmegatests/chipseq/input_data/SRX747793_T1.fastq.gz,,FOXA1,INPUT_E2
+FOXA1_IP_E2,2,s3://nf-core-awsmegatests/chipseq/input_data/SRX747794_T1.fastq.gz,,FOXA1,INPUT_E2
 INPUT_VEH,1,s3://nf-core-awsmegatests/chipseq/input_data/SRX747767_T1.fastq.gz,,,
 INPUT_VEH,2,s3://nf-core-awsmegatests/chipseq/input_data/SRX747768_T1.fastq.gz,,,
+INPUT_E2,1,s3://nf-core-awsmegatests/chipseq/input_data/SRX747769_T1.fastq.gz,,,
+INPUT_E2,2,s3://nf-core-awsmegatests/chipseq/input_data/SRX747770_T1.fastq.gz,,,
